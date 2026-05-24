@@ -10,10 +10,18 @@
         "email": "your@email.com",
         "phone": "+20 xxx xxx xxxx",
         "location": "Cairo, Nasr City, Egypt",
-        "summary": "Backend developer specializing in Laravel and NestJS with a focus on clean architecture, microservices, and scalable REST APIs."
+        "summary": {
+            "main": "Experienced in building scalable backend systems using Laravel and NestJS, designing RESTful APIs, modular architectures (HMVC & Clean Architecture), and applying design patterns like Repository, Service, Builder, Singleton, and Strategy. Skilled in PostgreSQL, MySQL, caching, RabbitMQ, Docker, TDD with PHPUnit, and integrating admin panels with Filament. Continuously learning new technologies and optimizing performance for maintainable applications.",
+            "extra": "Knowledge of frontend using HTML, CSS, and Vanilla JavaScript. Knowledge of frontend libraries & frameworks such as Tailwind CSS, and Fontawesome."
+        }
     },
 
     "social": [
+        {
+            "platform": "whatsapp",
+            "label": "eslam-nazer",
+            "url": "https://whatsapp.com/send?phone=+201000000000"
+        },
         {
             "platform": "github",
             "label": "Eslam-Nazer",
@@ -22,7 +30,7 @@
         {
             "platform": "linkedin",
             "label": "eslam-nazer",
-            "url": "https://linkedin.com/in/eslam-nazer"
+            "url": "https://www.linkedin.com/in/eslam-nazer-285a0922b/"
         }
     ],
 
@@ -79,20 +87,20 @@
         {
             "institution": "South Valley University",
             "degree": "Bachelor's",
+            "college": "Specific Education",
             "field": "Information Technology & Education",
-            "from": "2019",
-            "to": "2023"
+            "from": "Sep 2019",
+            "to": "Jul 2023"
         }
     ],
 
     "skills": {
         "Languages": ["PHP", "TypeScript", "Python", "Java"],
-        "Frameworks": ["Laravel", "NestJS", "FastAPI", "Filament"],
+        "Frameworks": ["Laravel", "NestJS", "Filament"],
         "Databases": ["PostgreSQL", "MySQL"],
         "Tools": ["Docker", "RabbitMQ", "Git", "Linux"],
         "Concepts": [
             "Clean Architecture",
-            "Microservices",
             "SOLID",
             "TDD",
             "REST API",
