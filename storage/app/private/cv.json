@@ -1,0 +1,124 @@
+{
+    "meta": {
+        "last_updated": "2025-05-24",
+        "locale": "en"
+    },
+
+    "personal": {
+        "name": "Eslam Nazer",
+        "title": "Backend Developer",
+        "email": "your@email.com",
+        "phone": "+20 xxx xxx xxxx",
+        "location": "Cairo, Nasr City, Egypt",
+        "summary": "Backend developer specializing in Laravel and NestJS with a focus on clean architecture, microservices, and scalable REST APIs."
+    },
+
+    "social": [
+        {
+            "platform": "github",
+            "label": "Eslam-Nazer",
+            "url": "https://github.com/Eslam-Nazer"
+        },
+        {
+            "platform": "linkedin",
+            "label": "eslam-nazer",
+            "url": "https://linkedin.com/in/eslam-nazer"
+        }
+    ],
+
+    "experience": [
+        {
+            "company": "MM2",
+            "location": "Cairo, Maadi",
+            "role": "Backend Developer",
+            "type": "Full-time",
+            "from": "2025-03",
+            "to": null,
+            "stack": [
+                "Laravel",
+                "NestJS",
+                "Filament",
+                "PostgreSQL",
+                "RabbitMQ",
+                "Docker",
+                "Spatie"
+            ],
+            "highlights": [
+                "Built microservices architecture with shared PostgreSQL and cross-service Eloquent models",
+                "Implemented promo code system with custom Laravel Rule classes and CartItemObserver",
+                "Integrated Google Cloud Storage with Spatie Media Library"
+            ]
+        },
+        {
+            "company": "Architopiahub",
+            "location": "Remote",
+            "role": "Laravel Backend Developer",
+            "type": "Contract",
+            "from": "2025-01",
+            "to": "2025-04",
+            "stack": ["Laravel", "REST API", "MySQL"],
+            "highlights": [
+                "Developed and maintained RESTful APIs for a real estate platform"
+            ]
+        },
+        {
+            "company": "MKCL",
+            "location": "Cairo, Nasr City",
+            "role": "Web App Administrator",
+            "type": "Full-time",
+            "from": "2024-03",
+            "to": "2025-01",
+            "stack": [],
+            "highlights": [
+                "Managed and administered web applications for internal operations"
+            ]
+        }
+    ],
+
+    "education": [
+        {
+            "institution": "South Valley University",
+            "degree": "Bachelor's",
+            "field": "Information Technology & Education",
+            "from": "2019",
+            "to": "2023"
+        }
+    ],
+
+    "skills": {
+        "Languages": ["PHP", "TypeScript", "Python", "Java"],
+        "Frameworks": ["Laravel", "NestJS", "FastAPI", "Filament"],
+        "Databases": ["PostgreSQL", "MySQL"],
+        "Tools": ["Docker", "RabbitMQ", "Git", "Linux"],
+        "Concepts": [
+            "Clean Architecture",
+            "Microservices",
+            "SOLID",
+            "TDD",
+            "REST API",
+            "Repository/Service Pattern",
+            "Domain-Driven Design"
+        ]
+    },
+
+    "projects": [
+        {
+            "name": "Forum Platform",
+            "url": "https://github.com/Eslam-Nazer",
+            "description": "Laravel 12 forum built with Clean Architecture, TDD (PHPUnit), WebSockets via Reverb, Vue/Inertia frontend, and Docker.",
+            "stack": [
+                "Laravel 12",
+                "Vue",
+                "Inertia",
+                "PHPUnit",
+                "Docker",
+                "Reverb"
+            ]
+        }
+    ],
+
+    "languages": [
+        { "language": "Arabic", "level": "Native" },
+        { "language": "English", "level": "Professional" }
+    ]
+}
