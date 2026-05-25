@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+
 <main class="space-y-6">
 
     {{-- Profile --}}
@@ -66,8 +67,8 @@
     </section>
 
     {{-- Projects --}}
-    <section>
-        <h2 class="font-semibold text-xl sm:text-2xl mb-2 border-b-2">Projects</h2>
+    <section class="break-inside-avoid">
+        <h2 class=" font-semibold text-xl sm:text-2xl mb-2 border-b-2">Projects</h2>
         @foreach ($data['projects'] as $project)
         <div class="mb-3">
             <div class="font-semibold">
@@ -89,8 +90,8 @@
     </section>
 
     {{-- Skills --}}
-    <section>
-        <h2 class="font-semibold text-xl sm:text-2xl mb-2 border-b-2">Skills</h2>
+    <section class="break-inside-avoid">
+        <h2 class=" font-semibold text-xl sm:text-2xl mb-2 border-b-2">Skills</h2>
         <div class="space-y-1">
             @foreach ($data['skills'] as $category => $skills)
             <div class="flex flex-col sm:flex-row sm:flex-wrap gap-x-1 text-sm">
@@ -102,7 +103,7 @@
     </section>
 
     {{-- Languages --}}
-    <section>
+    <section class="break-inside-avoid">
         <h2 class="font-semibold text-xl sm:text-2xl mb-2 border-b-2">Languages</h2>
         <div class="space-y-1">
             @foreach ($data['languages'] as $lang)
