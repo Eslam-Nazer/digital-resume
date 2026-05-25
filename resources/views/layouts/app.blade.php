@@ -10,7 +10,17 @@
 </head>
 
 <body class="bg-gray-50 min-h-screen">
+
     <div class="mx-auto my-4 sm:my-8 p-4 sm:p-8 border border-gray-200 bg-white w-full max-w-4xl rounded-md shadow-sm">
+        <div class="flex justify-start mb-4">
+            <a href="{{ route('cv.download') }}"
+                class="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 text-white text-sm
+              rounded hover:bg-gray-700 transition-colors print:hidden">
+                <i class="fa-solid fa-download"></i>
+                Download PDF
+            </a>
+        </div>
+
         @yield('header')
         @yield('content')
     </div>
