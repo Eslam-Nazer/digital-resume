@@ -6,11 +6,11 @@ A personal CV web application built with Laravel and Blade. Displays structured 
 
 ## Tech Stack
 
-- **Laravel 11** — application framework
+- **Laravel 12** — application framework
 - **Blade** — templating engine
 - **Tailwind CSS** (CDN, browser build) — styling
 - **Font Awesome** — icons
-- **barryvdh/laravel-dompdf** — PDF generation
+- **spatie/browsershot** — PDF generation
 
 ---
 
@@ -38,7 +38,10 @@ cp .env.example .env
 # 4. Generate the application key
 php artisan key:generate
 
-# 5. Start the development server
+# 4. Install npm packages and make sure you have Node.js
+npm install
+
+# 6. Start the development server
 php artisan serve
 ```
 
@@ -114,9 +117,7 @@ storage/app/private/
 
 app/
 ├── Http/Controllers/
-│   └── CvController.php    # index() and download()
-└── Services/
-    └── CvService.php       # loads and caches cv.json
+    └── CvController.php    # index() and download()
 
 resources/views/
 ├── layouts/
@@ -129,7 +130,3 @@ routes/
 ```
 
 ---
-
-## Deployment
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for production setup instructions, including environment configuration and web server setup.
